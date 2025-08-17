@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <groups>
+        <run>
+            <include name="Purchase">
+            </include>
+        </run>
+    </groups>
+    <test name="Stand Alone Test">
+        <classes>
+            <class name="MyPackage.StandAloneTest">
+            </class>
+        </classes>
+    </test>
+
+    <test name="Error Validations Test">
+        <classes>
+            <class name="MyPackage.ErrorValidationsTest">
+            </class>
+        </classes>
+    </test>
+</suite>
